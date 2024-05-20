@@ -1,0 +1,163 @@
+.App {
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.steel-area {
+    margin: 20px;
+}
+.main-tab {
+    width: 45%;
+    margin: 1% auto;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: #003bed;
+    background-color: #f2f2f2;
+}
+.main-tab > h2 {
+    margin: 0;
+    background-color: #003bed;
+    color: white;
+    padding: 5px 0 5px 0;
+}
+.sec-tab {
+    min-height: 500px;
+}
+.tabs {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+.tabs > legend {
+    margin: 0;
+    color: #1f51e9;
+    text-align: left;
+}
+
+.sub-tabs > legend {
+    margin: 0;
+    color: #1f51e9;
+    text-align: left;
+}
+.sub-tabs {
+    margin: 5px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+.results-tab {
+    width: 90%;
+}
+.btns-list {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    margin: 0 30px 30px 0;
+}
+.visible {
+    display: block;
+}
+.hidden {
+    display: none;
+}
+.calc-inner-container {
+    margin: 20px;
+    background-color: rgb(248, 229, 206);
+    padding: 15px;
+    border: 1px solid #c0c0c0;
+    flex: 1;
+}
+.draw-area {
+    background-color: rgb(248, 229, 206);
+    margin: 20px 20px 0 0;
+    padding: 20px;
+    border: 1px solid #c0c0c0;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+.close-btn-calc {
+    justify-content: flex-end;
+}
+.close-btn-calc button {
+    margin: 0 20px 20px 0;
+}
+
+/*
+  Canvas styles
+ */
+.container {
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+    border: 5px solid black;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background: grey;
+}
+.circle {
+    aspect-ratio: 1;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 50%;
+    background: black;
+}
+.overflow-container {
+    display: flex;
+    align-items: flex-start;
+    overflow: hidden;
+}
+.circle-container {
+    display: inline-flex;
+}
+
+/*
+common styles
+ */
+.flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.full-width {
+    width: 100%;
+}
+.full-height {
+    height: 100%;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+Input styles
+ */
+.input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.label {
+    width: 40%;
+    text-align: left;
+}
+.input input {
+    flex: 1;
+}
+input:disabled {
+    background: #efebde;
+}
+.units {
+    margin-left: 10px;
+}
